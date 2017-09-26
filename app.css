@@ -1,0 +1,283 @@
+body {
+	font-size: 21px;
+	font-family: "museo-sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "museo-sans", sans-serif;
+}
+
+address {
+	font-style: normal;
+}
+
+#home {
+	background-image: url("../assets/img/blossom.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.top-bar-container, .top-bar, .top-bar ul {
+	background-color: white;
+}
+
+.grid-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-bar a {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.bottom-bar {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: white;
+	background-color: #3CB54A;
+	text-transform: uppercase;
+}
+
+.bottom-bar, .bottom-bar h4 {
+	font-size: inherit;
+	font-weight: bold;
+}
+
+.bottom-bar a,
+.bottom-bar a:hover,
+.bottom-bar a:active,
+.bottom-bar a:visited,
+.bottom-bar a:focus {
+	color: white
+}
+
+.bottom-bar-logo {
+	padding-bottom: 16px;
+}
+
+@media screen and (min-width: 40em) {
+	.bottom-bar-left {
+		text-align: left;
+	}
+	.bottom-bar-logo {
+		text-align: center;
+	}
+	.bottom-bar-right {
+		text-align: right;
+	}
+}
+
+
+#home-header {
+	background-color: #3CB54A;
+	color: white;
+	margin-top: 400px;
+	margin-top: 85vh;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#home-header h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 27px;
+	margin-bottom: 32px;
+}
+
+#home-header .grid-container {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#home-content {
+	background-color: white;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#home-content h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	margin: 32px 0 16px;
+	color: #3CB54A;
+}
+
+#home-content img {
+	display: block;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+#home-content p {
+	color: #0a0a0a;
+}
+
+#home-content .go-arrow {
+	color: #3CB54A;
+}
+
+#home-calltoaction {
+	background-color: #3CB54A;
+	color: white;
+	padding-top: 72px;
+	padding-bottom: 56px;
+	text-align: center;
+	font-size: 27px;
+}
+
+#products-header, 
+#consulting-services, 
+#production-services {
+	background-color: #3CB54A;
+	color: white;
+	padding: 32px;
+}
+
+#products-header h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 32px;
+	font-size: 27px;
+}
+
+#products-fa {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+	max-width: 200px;
+}
+
+#products-content {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#products-content strong {
+	color: #3CB54A;
+}
+
+#products-features .cell {
+	margin-bottom: 16px;
+}
+
+#products-features h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	margin-bottom: 32px;
+}
+
+#products-features h3 {
+	display: block;
+	text-transform: uppercase;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#products-features p {
+	font-size: 17px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#products-features img {
+	display: block;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 32px;
+	height: 150px;
+	max-width: 250px;
+}
+
+#consulting-services h1, #production-services h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 32px;
+	font-size: 27px;
+}
+
+#consulting-services, #production-services {
+	background-color: #3CB54A;
+	color: white;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.consulting-content, .production-content {
+	margin-top: 32px;
+}
+
+.consulting-content img, .production-content img {
+	display: block;
+	max-width: 100%;
+	max-height: 250px;
+	padding-bottom: 30px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.consulting-content p, .production-content p {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.consulting-content h2, .production-content h2 {
+	padding-top: 16px;
+	padding-bottom: 10px;
+	margin-top: 16px;
+	margin-bottom: 10px;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#contact-header p {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#contact-form {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+#contact-form label {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#contact-form-header {
+	margin-bottom: 32px;
+}
+
+#contact-info {
+	font-size: 17px;
+}
+
+#contact-social-icons i {
+    font-size: 28px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 8px;
+    border: 1px solid #3CB54A;
+    border-radius: 50%;
+    text-align: center;
+}
