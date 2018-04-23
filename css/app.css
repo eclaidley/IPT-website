@@ -36,6 +36,7 @@ address {
 	text-transform: uppercase;
 	padding-left: 32px;
 	padding-right: 32px;
+	color: #3CB54A;
 }
 
 .bottom-bar {
@@ -238,8 +239,7 @@ h1 {
     margin-right: auto;
 }
 
-.consulting-content p, 
-.production-content p {
+.consulting-content p {
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
