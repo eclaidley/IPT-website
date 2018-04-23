@@ -209,8 +209,7 @@ h1 {
 	max-width: 250px;
 }
 
-#consulting-services h1, 
-#production-services h1 {
+#consulting-services h1 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
@@ -218,21 +217,18 @@ h1 {
 	font-size: 27px;
 }
 
-#consulting-services, 
-#production-services {
+#consulting-services {
 	background-color: #3CB54A;
 	color: white;
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
 
-.consulting-content, 
-.production-content {
+.consulting-content {
 	margin-top: 32px;
 }
 
-.consulting-content img, 
-.production-content img {
+.consulting-content img {
 	display: block;
 	max-width: 100%;
 	max-height: 250px;
@@ -252,8 +248,7 @@ h1 {
 	font-size: 17px;
 }
 
-.consulting-content h2, 
-.production-content h2 {
+.consulting-content h2 {
 	padding-top: 16px;
 	padding-bottom: 10px;
 	margin-top: 16px;
