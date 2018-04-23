@@ -15,9 +15,13 @@ address {
 	background-image: url("../assets/img/blossom.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
+	background-position: cover;
+	height: 100vh;
 }
 
-.top-bar-container, .top-bar, .top-bar ul {
+.top-bar-container, 
+.top-bar, 
+.top-bar ul {
 	background-color: white;
 }
 
@@ -35,14 +39,15 @@ address {
 }
 
 .bottom-bar {
-	padding-top: 64px;
-	padding-bottom: 64px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	color: white;
 	background-color: #3CB54A;
 	text-transform: uppercase;
 }
 
-.bottom-bar, .bottom-bar h4 {
+.bottom-bar, 
+.bottom-bar h4 {
 	font-size: inherit;
 	font-weight: bold;
 }
@@ -71,19 +76,26 @@ address {
 	}
 }
 
-#home-header {
-	background-color: #3CB54A;
+#landing-text {
 	color: white;
-	margin-top: 400px;
-	margin-top: 85vh;
-	padding-top: 32px;
+	text-align: center;
+	padding-top: 250px;
+}
+
+#home-header {
+	background-color: white;
+	color: black;
+	margin-top: 80vh;
 	padding-bottom: 32px;
 }
 
-#home-header h1 {
+h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+}
+
+#home-header h1 {
 	font-size: 27px;
 	margin-bottom: 32px;
 }
@@ -97,6 +109,7 @@ address {
 	background-color: white;
 	padding-top: 32px;
 	padding-bottom: 32px;
+	float: center;
 }
 
 #home-content h2 {
@@ -104,13 +117,14 @@ address {
 	font-weight: bold;
 	font-size: 27px;
 	margin: 32px 0 16px;
-	color: #3CB54A;
+	color: black;
 }
 
 #home-content img {
 	display: block;
 	max-width: 300px;
 	max-height: 300px;
+	padding-bottom: 20px;
 }
 
 #home-content p {
@@ -123,15 +137,6 @@ address {
 
 #home-content .go-arrow {
 	color: #3CB54A;
-}
-
-#home-calltoaction {
-	background-color: #3CB54A;
-	color: white;
-	padding-top: 72px;
-	padding-bottom: 56px;
-	text-align: center;
-	font-size: 27px;
 }
 
 #products-header, 
@@ -204,7 +209,8 @@ address {
 	max-width: 250px;
 }
 
-#consulting-services h1, #production-services h1 {
+#consulting-services h1, 
+#production-services h1 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
@@ -212,18 +218,21 @@ address {
 	font-size: 27px;
 }
 
-#consulting-services, #production-services {
+#consulting-services, 
+#production-services {
 	background-color: #3CB54A;
 	color: white;
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
 
-.consulting-content, .production-content {
+.consulting-content, 
+.production-content {
 	margin-top: 32px;
 }
 
-.consulting-content img, .production-content img {
+.consulting-content img, 
+.production-content img {
 	display: block;
 	max-width: 100%;
 	max-height: 250px;
@@ -233,7 +242,8 @@ address {
     margin-right: auto;
 }
 
-.consulting-content p, .production-content p {
+.consulting-content p, 
+.production-content p {
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -242,7 +252,8 @@ address {
 	font-size: 17px;
 }
 
-.consulting-content h2, .production-content h2 {
+.consulting-content h2, 
+.production-content h2 {
 	padding-top: 16px;
 	padding-bottom: 10px;
 	margin-top: 16px;
