@@ -71,7 +71,6 @@ address {
 	}
 }
 
-
 #home-header {
 	background-color: #3CB54A;
 	color: white;
@@ -116,6 +115,10 @@ address {
 
 #home-content p {
 	color: #0a0a0a;
+}
+
+.boldd-green {
+	color: #3CB54A;
 }
 
 #home-content .go-arrow {
